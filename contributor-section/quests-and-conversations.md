@@ -1,5 +1,7 @@
 # Conversations
 
+All texts are written in American English.
+
 The words “good” and “evil” should be discouraged as much as possible, unless in extreme cases where it is made very clear that it refers to a subjective feeling.
 
 Do not use wording of “god”, as in “oh my god”. There are no gods in the world of Andor’s Trail. See section on “The Shadow” below.
