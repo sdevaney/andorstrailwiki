@@ -1,7 +1,3 @@
----
-description: The home for Andor's Trail Project documentation
----
-
 # Andor's Trail Docs
 
 ### About
@@ -14,7 +10,7 @@ Andor's Trail is a single-player quest-driven roguelike fantasy dungeon crawler 
 
 ### Downloads
 
- Get the game from [Google](https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail), [our server](https://andorstrail.com/static/AndorsTrail_v0.7.5.apk), or [F-Droid](https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/).
+ Get the game from [Google](https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail), [our server](https://andorstrail.com/static/AndorsTrail_v0.7.7.apk), or [F-Droid](https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/).
 
 ### Contributing
 
