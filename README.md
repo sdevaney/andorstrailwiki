@@ -10,7 +10,7 @@ Andor's Trail is a single-player quest-driven roguelike fantasy dungeon crawler 
 
 ### Downloads
 
- Get the game from [Google](https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail), [our server](https://andorstrail.com/static/AndorsTrail_v0.7.7.apk), or [F-Droid](https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/).
+ Get the game from [Google](https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail), [our server](https://andorstrail.com/), or [F-Droid](https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/).
 
 ### Contributing
 
@@ -28,5 +28,5 @@ Andor's Trail gameplay content is copyright by their respective authors and has 
 
 #### Graphics
 
-The graphics licenses and contributions can be found [here](https://github.com/Zukero/andors-trail/blob/master/gfxcontrib.md).
+The graphics licenses and contributions can be found [here](https://github.com/AndorsTrailRelease/andors-trail/blob/master/gfxcontrib.md).
 
