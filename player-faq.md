@@ -13,15 +13,23 @@
 
 ### How do I equip an item? <a id="how_do_i_equip_an_item"></a>
 
+Open your inventory. Tap on the item you wish to equip. If you are able to equip it there will be an Equip button, tap it to equip the item.
+
 ### How do I move my character? <a id="how_do_i_move_my_character"></a>
+
+Tap or tap and hold in the direction you wish to move. When using the D-Pad, tap the direction you wish to move on the pad.
 
 ### How do I attack an enemy? <a id="how_do_i_attack_an_enemy"></a>
 
-To attack you simply tap the monster to initiate combat and then you can either select the Attack button or tap the monster.
+You can initiate an attack by moving next to a mob and tapping on them or 'running into them'. A pop-up will appear, click OK to go to the battle screen.
 
 ### How do I use an item in my inventory? <a id="how_do_i_use_an_item_in_my_inventory"></a>
 
+Open your inventory and tap on the item you wish to use. If you are able to use it there will be a Use button, tap to use the item.
+
 ### How do I talk to NPC’s? <a id="how_do_i_talk_to_npc_s"></a>
+
+Move next to an NPC and tap on them to start a conversation.
 
 ### How do I flee from a fight? <a id="how_do_i_flee_from_a_fight"></a>
 
@@ -37,13 +45,13 @@ There are several parts of the game unfinished because it is still a work in pro
 
 ### Where can i find item/person/place ... ? <a id="where_can_i_find_itempersonplace"></a>
 
-If you have trouble finding something be sure to explore completely as some spots are hidden. If you still cannot find where something is read the forums as more than likely someone else has already asked where whatever you are looking for is.
+If you have trouble finding something be sure to explore completely as some spots are hidden. If you still cannot find where something is, read the forums as more than likely someone else has already asked where whatever you are looking for is.
 
 ### When is the next release? <a id="when_is_the_next_release"></a>
 
-I know everyone is anxious for an update and I can completely understand that, but, this release is about twice the size of the last release. Adding to that the behind the scene changes with the editors. We have major releases, not simply minor ones like most applications so the time between our updates is much greater than normal. We also do not put a time limit on our development cycles we pick specific things we wish to get done and then do them, once that list is done the release is done.
+I know everyone is anxious for an update and I can completely understand that. We do not put a time limit on our development cycles, we pick specific things we wish to get done and then do them, once that list is done the release is done.
 
-There are only a few of us that work on these releases as well so my suggestion is if you would like to see faster releases then please give us a hand by helping with the development.
+There are only a few of us that work on these releases as well so my suggestion is if you would like to see faster releases then please give us a hand by helping with the content creation.
 
 That does not mean you have to write code to help, we can use help with making maps, writing dialog, creating quests, unique items and monsters, etc. All of which are a big part of each and every release. Even if you feel you can't help in any of those ways I listed you can also help us by being active here on the forums and spreading the word of this great game and community to others, that in itself is a big help.
 
