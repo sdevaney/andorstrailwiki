@@ -1,3 +1,7 @@
+---
+description: Map of the game world as of v0.7
+---
+
 # World Map
 
 ![This is how it looks like in version 0.7](../../.gitbook/assets/worldmap_v.0.7.png)

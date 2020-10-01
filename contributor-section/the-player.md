@@ -6,7 +6,7 @@ description: 'You, the brother of Andor.'
 
 ### Character Motivations
 
-Try and leave room for the player to give their own motivations to the PC.
+Try and leave room for the player to give their own motivations to the PC. Quests should have multiple options for the player to express their play style.
 
 ## Character Development
 

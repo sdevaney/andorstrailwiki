@@ -32,15 +32,29 @@ The people trust each other.
 
 If there is a disagreement between two people from Nor City, they resolve it themselves. Either with support from their families, or by themselves right there and then.
 
-## Blackwater Mountain
+## Blackwater Mountain/Prim
 
 ## Crossglen
 
+The starting village. Andor and family live here.
+
 ## Fallhaven
+
+The starting area's large town.
 
 ## Loneford
 
 ## Remgard
 
 ## Vilegard
+
+## Brimhaven
+
+## Brightport
+
+## Stoutford
+
+## Sullengard
+
+
 
