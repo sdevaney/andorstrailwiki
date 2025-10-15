@@ -10,10 +10,10 @@ description: >-
 ### Prerequisites
 
 * You should of course have played the game a bit, to get a feel for the types of quests that are in the game right now.
-* You should have a basic understanding of [ATCS](atcs.md) or your preferred method of content creation.
+* You should have a basic understanding of [ATCS](atcs/) or your preferred method of content creation.
 * You should have a basic understanding of [Tiled](https://mapeditor.org), the map editor.
 * You love creating creative content.
-* Expect to write a lot of conversation text :\)
+* Expect to write a lot of conversation text :)
 
 ### Contributor Guidelines
 
@@ -39,7 +39,7 @@ description: >-
 
 Various areas that might require more instruction for developing Andor's Trail.
 
-### [ATCS](atcs.md)
+### [ATCS](atcs/)
 
 ### [Quest Creation](../developer-tutorials/quest-making/)
 
@@ -55,5 +55,4 @@ Various areas that might require more instruction for developing Andor's Trail.
 
 ### [World Map](world/world-map.md)
 
-### 
-
+###

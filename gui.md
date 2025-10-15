@@ -4,11 +4,11 @@ description: Descriptions of what the icons do on the main game.
 
 # GUI
 
-## Graphical User Interface <a id="graphical_user_interface"></a>
+## Graphical User Interface <a href="#graphical_user_interface" id="graphical_user_interface"></a>
 
-### Main Screen <a id="main_screen"></a>
+### Main Screen <a href="#main_screen" id="main_screen"></a>
 
-![](.gitbook/assets/interface_icons_chest_quickslots.png)
+<div align="left"><img src=".gitbook/assets/interface_icons_chest_quickslots.png" alt=""></div>
 
 ### The Chest
 
@@ -16,7 +16,7 @@ description: Descriptions of what the icons do on the main game.
 
 Long press the pouches inside to assign items for instant use
 
-#### The Hero <a id="the_hero"></a>
+#### The Hero <a href="#the_hero" id="the_hero"></a>
 
 Brings up the game menu. Here you will have access to the following:
 
@@ -27,15 +27,15 @@ Brings up the game menu. Here you will have access to the following:
 
 “press” an item for information & “long press” for more options.
 
-#### HP bar <a id="hp_bar"></a>
+#### HP bar <a href="#hp_bar" id="hp_bar"></a>
 
 Displays your current/max HP status.
 
-#### Level bar <a id="level_bar"></a>
+#### Level bar <a href="#level_bar" id="level_bar"></a>
 
 Displays you current/TNL status.
 
-### Combat Icons <a id="combat_icons"></a>
+### Combat Icons <a href="#combat_icons" id="combat_icons"></a>
 
 Appears during Combat.
 
@@ -46,4 +46,3 @@ Appears during Combat.
 **Flee**
 
 **Enemy**
-

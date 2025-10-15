@@ -18,7 +18,6 @@ description: >-
 
 ### [Development Environment Setup](contributing-code/development-environment-setup.md)
 
-### [Andor's Trail Content Studio](../contributor-section/atcs.md)
+### [Andor's Trail Content Studio](../contributor-section/atcs/)
 
 ### [World Map](../contributor-section/world/world-map.md)
-

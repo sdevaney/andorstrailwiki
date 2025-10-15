@@ -12,19 +12,18 @@ For example, a group of NPC's may persuade the player to do things that would be
 
 Also, things that are considered morally correct IRL should be questioned in the game. Prefer quests where the player must justify their actions towards other NPC's.
 
-### Example
+## Example
 
 Quest logs should be written in the first tense.
 
-```text
+```
 Correct: “I met an old man that [something]”
 ```
 
 VS
 
-```text
+```
 Incorrect: “The player met an old man that [something]”
 ```
 
 The quests and story-line should aim to be as nonlinear as possible, meaning that the player should be able to travel to parts of the world and do quests there before doing other quests in the starting villages. Some parts of the main story-line will be linear, but most parts should aim to be as nonlinear as possible.
-

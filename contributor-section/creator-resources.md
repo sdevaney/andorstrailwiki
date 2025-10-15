@@ -16,7 +16,7 @@ A list of available resources that provide an overall sense of Andor's Trail. Ar
 
 ### [Main Quests](quests/main-questlines.md)
 
-### [Additional Side Quests](quests/side-quests.md)
+### [Additional Side Quests](quests/side-quests/)
 
 ### [Items](http://andorstrail.irkalla.cz/0.7.0/)
 
@@ -26,7 +26,4 @@ A list of available resources that provide an overall sense of Andor's Trail. Ar
 
 ### [Rejected Ideas](rejected-ideas.md)
 
-### [Game Engine](game-engine.md)
-
 ### [Developer FAQ](development-faq.md)
-

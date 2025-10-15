@@ -2,13 +2,13 @@
 
 ## Game Options
 
-![Located on your devices Menu Button.](.gitbook/assets/controls_game_options.png)
+<div align="left"><img src=".gitbook/assets/controls_game_options.png" alt="Located on your devices Menu Button."></div>
 
-### Exit to menu <a id="exit_to_menu"></a>
+### Exit to menu <a href="#exit_to_menu" id="exit_to_menu"></a>
 
 Exit to the main menu.
 
-### Save <a id="save"></a>
+### Save <a href="#save" id="save"></a>
 
 Create a new save slot or save over an existing slot.
 
@@ -20,7 +20,7 @@ This screen covers a variety of settings that can be changed.
 
 **Fullscreen**
 
-Displays the game in fullscreen mode. \(Requires restart\)
+Displays the game in fullscreen mode. (Requires restart)
 
 **Scaling Factor**
 
@@ -32,7 +32,7 @@ Makes the game view display everything larger.
 
 **Optimized Drawing**
 
-Disable this if you see graphical artifacts. Enabling this option will make the game only redraw changed parts of the screen every frame.  
+Disable this if you see graphical artifacts. Enabling this option will make the game only redraw changed parts of the screen every frame.\
 
 
 ## **Dialog Confirmation**
@@ -47,7 +47,7 @@ Enables the 'Do you want to attack..?' dialog box when attacking a monster.
 
 **Display Monster Loot**
 
-Choose how you want to show the results of a fight to be shown \(gold, experience, items\).
+Choose how you want to show the results of a fight to be shown (gold, experience, items).
 
 * Show loot dialog box
 * Show short notification
@@ -59,7 +59,7 @@ Choose how you want to show the results of a fight to be shown \(gold, experienc
 
 Determines how fast monsters attack.
 
-* Instant \(no animations\)
+* Instant (no animations)
 * Fast
 * Normal
 * Slow
@@ -70,7 +70,7 @@ Determines how fast monsters attack.
 
 Type of movement method and handling of obstacles.
 
-* Straight \(original\)
+* Straight (original)
 * Avoiding obstacles
 
 **Virtual D-pad**
@@ -90,4 +90,3 @@ Enables a virtual on-screen directional pad to guide movement.
 **Minimizable D-pad**
 
 If the virtual d-pad is enabled, this setting allows the d-pad to be minimized by pressing its center.
-
