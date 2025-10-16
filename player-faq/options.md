@@ -2,7 +2,7 @@
 
 ## Game Options
 
-<div align="left"><img src=".gitbook/assets/controls_game_options.png" alt="Located on your devices Menu Button."></div>
+<div align="left"><img src="../.gitbook/assets/controls_game_options.png" alt="Located on your devices Menu Button."></div>
 
 ### Exit to menu <a href="#exit_to_menu" id="exit_to_menu"></a>
 

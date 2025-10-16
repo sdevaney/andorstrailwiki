@@ -2,7 +2,7 @@
 
 ## Title Screen
 
-<div align="left"><img src=".gitbook/assets/title.webp" alt=""></div>
+<div align="left"><img src="../.gitbook/assets/title.webp" alt=""></div>
 
 ### Continue current game <a href="#continue_current_game" id="continue_current_game"></a>
 

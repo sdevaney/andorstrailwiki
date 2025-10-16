@@ -8,7 +8,7 @@ description: Descriptions of what the icons do on the main game.
 
 ### Main Screen <a href="#main_screen" id="main_screen"></a>
 
-<div align="left"><img src=".gitbook/assets/interface_icons_chest_quickslots.png" alt=""></div>
+<div align="left"><img src="../.gitbook/assets/interface_icons_chest_quickslots.png" alt=""></div>
 
 ### The Chest
 

@@ -2,10 +2,10 @@
 description: >-
   Andor's Trail is developed as open-source, roughly meaning that anyone can add
   new content or code to the game. If you want to help in making Andor's Trail
-  even better, you are encouraged to help with
+  even better, you are encouraged to help.
 ---
 
-# Contributor Guidelines
+# Part 2: Content Creator's Handbook
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ description: >-
 
 ### Contributor Guidelines
 
-### [Player Character Development](the-player.md)
+### [Player Character Development](../player-faq/the-player/)
 
 ### [NPC Character Personalities](npcs-and-their-creation.md#character-personalities)
 
@@ -33,7 +33,7 @@ description: >-
 
 ### [Mapmaking Guidelines](../developer-tutorials/mapmaking-guidelines/)
 
-### [Quests](quests/)
+### [Quests](../player-faq/game-and-world-lore/quests/)
 
 ### [Development Tutorials](../developer-tutorials/)
 

@@ -514,7 +514,7 @@ textbuildTypes {
 
 ### Minimum Android Version
 
-* **API Level**: 16 (Android 4.1 Jelly Bean)
+* **API Level**: 35 (Android 15)
 * **Target API**: Latest stable Android version
 * **Architecture**: ARMv7, ARM64, x86
 
