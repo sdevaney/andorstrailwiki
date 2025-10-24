@@ -9,14 +9,14 @@ description: This is a tutorial on how to make beautiful looking maps for Andor'
 Before we begin, let's set up our environment with the program and files that we will need.
 
 1. Download [Tiled](https://mapeditor.org) and install it.
-2. Download the Andor's Trail source code by either downloading the prepackaged [source files](https://github.com/Zukero/andors-trail/) or by downloading the source code via Github (Click “Download zip” in the bottom right hand corner).
-3.  Unpack the source files. It doesn't matter where you place the files on your drive, just remember the directory you placed them in. You should get a directory structure something like the following: &#x20;
+2. Download the Andor's Trail source code by either downloading the prepackaged [source files](https://github.com/Zukero/andors-trail/) or by downloading the source code via GitHub (Click “Download zip” in the bottom right-hand corner).
+3.  Unpack the source files. It doesn't matter where you place the files on your drive; just remember the directory you placed them in. You should get a directory structure something like the following: &#x20;
 
     <img src="../../../.gitbook/assets/directory structure.png" alt="" data-size="original">
-4.  Inside the directory AndorsTrail/res/xml should be a bunch of files ending in tmx. These are the existing maps. We will be using them. Open Tiled and open the file “home.tmx” to make sure it shows up correctly. You should see the starting map in the map editor. Examine it if you like. In particular, note the layers available on the right side. Try switching some layers off to see what happens in the editor. &#x20;
+4.  Inside the directory AndorsTrail/res/xml should be a bunch of files ending in tmx. These are the existing maps. We will be using them. Open Tiled and open the file “home.tmx” to make sure it shows up correctly. You should see the starting map in the map editor. Examine it if you like. In particular, note the layers on the right. Try switching some layers off to see what happens in the editor. &#x20;
 
     <img src="../../../.gitbook/assets/home3.png" alt="" data-size="original">
-5. If the file cannot be opened, make sure you are using the same directory structure as listed above. The map files use other files from the “drawable” directory, so make sure that this directory is reachable. Ok, your environment is now ready for making maps.
+5. If the file cannot be opened, make sure you are using the same directory structure as listed above. The map files use other files in the “drawable” directory, so make sure this directory is accessible. Ok, your environment is now ready for making maps.
 6. Ok, your environment is now ready for making maps.
 
 ### Other Helpful Pages
@@ -25,7 +25,7 @@ Before we begin, let's set up our environment with the program and files that we
 
 ## Making a New Map
 
-&#x20;Start by opening the file “template.tmx” in Tiled. This file contains the necessary setup for the tiles that we use and the layer names that Andor's Trail uses. It should be an empty 30×30 map.&#x20;
+&#x20;Start by opening the file “template.tmx” in Tiled. This file contains the necessary setup for the tiles we use and the layer names used by Andor's Trail. It should be an empty 30×30 map.&#x20;
 
 ![You might want to press ctrl-g to toggle the visibility of the grid.](../../../.gitbook/assets/template3.png)
 
@@ -37,9 +37,9 @@ Let's start by making the map the size that we want. Go to “Map” (in menu) �
 
 ![](../../../.gitbook/assets/scarydungeon1.png)
 
-Paint the ground in the tile type you want, by using the paint tool. For my dungeon, I like to use the following tile type located in map\_ground\_1.
+Paint the ground in the tile type you want by using the paint tool. For my dungeon, I like to use the following tile type located in map\_ground\_1.
 
-![Hint: By right clicking a tile, you can copy it. That is much faster than selecting an already used tile in the tilesets window.](../../../.gitbook/assets/scarydungeon6.png)
+![Hint: Right-clicking a tile copies it. That is much faster than selecting an already used tile in the tilesets window.](../../../.gitbook/assets/scarydungeon6.png)
 
 I usually start by drawing the walls to create the outline of the map by selecting the stamp brush tool. Walls are usually two tiles high before hitting the ceiling. Notice how I can select two tiles at the same time and draw them. Note also that since these cover the whole tile, I can place them in the “Ground” layer (which slightly increases the performance when drawing the map).
 
@@ -47,14 +47,14 @@ I usually start by drawing the walls to create the outline of the map by selecti
 
 There are a couple of things to notice:
 
-* Leave a space for where the entrance should be.
-* Try not to make too many straight lines. In my map, I try to make the outline as “round” as possible without any straight edges.
+* Leave a space for the entrance.
+* Try not to make too many straight lines. In my map, I try to outline “round” as much as possible without any straight edges.
 
-After that, I'm drawing the the wall corners. They are used for making the edges more smoothly.
+After that, I'm drawing the wall corners. They are used to make the edges smoother.
 
 ![](../../../.gitbook/assets/scarydungeon8.png)
 
-Let's finish the walls. For dungeon walls, there are four different tile types that have their edges in four different directions. I'm going to use these as tops of the walls.
+Let's finish the walls. For dungeon walls, four different tile types have their edges in four different directions. I'm going to use these as the tops of the walls.
 
 ![](../../../.gitbook/assets/scarydungeon9.png)
 
@@ -82,7 +82,7 @@ I also want an exit to the north. Let's add a cave opening.
 
 ![](../../../.gitbook/assets/scarydungeon17.png)
 
-What could be more scary than some broken barrels and crates with cobwebs, right? Let's add that.
+What could be scarier than some broken barrels and crates with cobwebs, right? Let's add that.
 
 ![](../../../.gitbook/assets/scarydungeon18.png)
 
@@ -92,7 +92,7 @@ The main parts of this map are now complete. Let's add some more clutter to make
 
 ![](../../../.gitbook/assets/scarydungeon20.png)
 
-To make the crates look even more creepy, I'm adding some black dust in the “Above” layer. Otherwise, the crate underneath it would be replaced by the dust.
+To make the crates look even creepier, I'm adding some black dust to the “Above” layer. Otherwise, the crate underneath it would be replaced by the dust.
 
 ![](../../../.gitbook/assets/scarydungeon21.png)
 
@@ -111,26 +111,26 @@ I applied that rule to the shadows in our cave:
 
 ![](../../../.gitbook/assets/scarydungeon32.png)
 
-Do you see the shadow tile being under the stone corner? I did that by placing the shadow in “Objects” and placing the stone corner in “Above”. Due to this change, the shadow looks more “connected” to the walls.
+Do you see the shadow tile under the stone corner? I did that by placing the shadow in “Objects” and placing the stone corner in “Above”. Due to this change, the shadow looks more “connected” to the walls.
 
 ![](../../../.gitbook/assets/scarydungeon33.png)
 
-The visible parts of the map are now done. Let's add the walkable layer. Every tile which is covered by “Walkable” is inaccessible. The bottom tile of the entrance to the north should be reachable though.
+The visible parts of the map are now done. Let's add the walkable layer. Every tile that is covered by “Walkable” is inaccessible. The bottom tile of the entrance to the north should be reachable, though.
 
 ![](../../../.gitbook/assets/scarydungeon34.png)
 
-Let's add some monsters to the map. Monsters can be found in the monster resource files. If you have downloaded the source code, you can find the monster list file in your res/raw/monsterlist\_placeholder.json file. Otherwise, you can browse it online from [Github.](https://github.com/Zukero/andors-trail/)
+Let's add some monsters to the map. Monsters can be found in the monster resource files. If you have downloaded the source code, you can find the monster list file in res/raw/monsterlist\_placeholder.json. Otherwise, you can browse it online from [Github.](https://github.com/Zukero/andors-trail/)
 
-To make a new monster, you would have to add it to the monster resource file, and that is a tutorial on its own. Let's re-use some old monster to make it easy. I want to have a basilisk on my map (from the snake cave outside Crossglen), and the basilisk has monster spawngroup “cavesnake2\_boss”.
+To make a new monster, you would have to add it to the monster resource file, and that is a tutorial on its own. Let's reuse some old monsters to make it easy. I want to have a basilisk on my map (from the snake cave outside Crossglen), and the basilisk has monster spawn group “cavesnake2\_boss”.
 
-Let's create a spawn area by changing to the “Spawn” layer, and by selecting the “Insert Rectangle” tool in the menu. Now, I'm placing an area on the map (draw from top left to bottom right).
+Let's create a spawn area by changing to the “Spawn” layer and selecting the “Insert Rectangle” tool in the menu. Now, I'm placing an area on the map (draw from top left to bottom right).
 
-* Enable “Snap to grid” under “View”. Due to that feature, the grid has got the same size as the tiles.
+* Enable “Snap to grid” under “View”. Due to that feature, the grid has the same size as the tiles.
 * Please leave one tile of space between entrances and the spawn areas.
 
 ![](../../../.gitbook/assets/scarydungeon35.png)
 
-Right click it and select properties, and let's make this a “spawn” type, and specify the monster that we want to spawn here. I can also specify that I want two of them by supplying a “quantity” property.
+Right-click it and select properties, and let's make this a “spawn” type, and specify the monster that we want to spawn here. I can also specify that I want two of them by supplying a “quantity” property.
 
 ![](../../../.gitbook/assets/scarydungeon28.png)
 

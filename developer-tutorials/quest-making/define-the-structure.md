@@ -16,17 +16,17 @@ For this tutorial, we will assume that we want to create a quest called “You r
 
 ## Flowchart
 
-A flowchart is an excellent tool to use to help concretize the structure of the quest. It is of course not always needed, but can sometimes help a lot when planning the high-level structure of a quest, in order to not get stuck on the details too quick.
+A flowchart is an excellent tool for concretizing the quest's structure. It is, of course, not always needed, but it can sometimes help a lot when planning the high-level structure of a quest, in order not to get stuck on the details too quickly.
 
 For the existing quests in Andor’s Trail, various tools have been used to create flowcharts for quests, but the tool that (at the moment) wins in ease-of-use is to create a drawing in Google Docs.
 
 For the example quest in this tutorial, a flowchart could look something like this:
 
-![The flowchart will be an excellent help when writing the quest log, in the next section.](../../.gitbook/assets/quest_making1.jpeg)
+![The flowchart will be an excellent help when writing the quest log in the next section.](../../.gitbook/assets/quest_making1.jpeg)
 
 ## The Quest Log
 
-In the game, the text you see on the character screen, in the “Quests” tab, is called the quest log. Each quest is composed of several stages, where each stage has an assigned internal integer value. As the player progresses in a quest, their progress will be represented by which of these stages that the player has reached.
+In the game, the text you see on the character screen, in the “Quests” tab, is called the quest log. Each quest is composed of several stages, each with an assigned internal integer value. As the player progresses in a quest, their progress will be represented by which of these stages the player has reached.
 
 Looking at the flowchart for the quest, each box will be represented by roughly one quest stage.
 
@@ -49,9 +49,9 @@ Our quest with Cileth might have these quest stages:
 
 In this example, notice that the player might choose to reach 60, but never 70, or vice versa.
 
-The stage values can be anything, as long as they are positive numbers. They will be presented in the player’s quest log in order by stage value.&#x20;
+The stage values can be any positive numbers. They will be presented in the player’s quest log in order by stage value.&#x20;
 
-The internal id can be anything that uniquely defines this quest, it will not be shown to the player. Notice how stage 65 and 90 also gives some exp rewards when reached. Also notice how stage 90 marks the quest as completed.
+The internal ID can be anything that uniquely defines this quest; it will not be shown to the player. Notice how stages 65 and 90 also give some exp rewards when reached. Also, notice how stage 90 marks the quest as completed.
 
 ### Quest items
 
@@ -61,4 +61,4 @@ This quest will require a quest item, the map that Cileth has lost. It can be cr
 
 To make Olgnuur drop this particular item when he is killed, we’ll create a droplist in [ATCS](../../contributor-section/atcs/).
 
-Olgnuur will drop a few more items when killed, to provide some loot for the player to collect. Notice how all of them have 100% chance of being dropped, and in particular the map itself - it could break the quest if Olgnuur could be killed but would not always drop the map. Quest items should always have 100% drop chance.
+Olgnuur will drop a few more items when killed, to provide some loot for the player to collect. Notice how all of them have a 100% chance of being dropped, and in particular, the map itself - it could break the quest if Olgnuur could be killed, but would not always drop the map. Quest items should always have a 100% drop chance.

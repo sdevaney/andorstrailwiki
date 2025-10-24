@@ -1,10 +1,10 @@
 # Map Editor
 
-Andor's Trail uses [Tiled](https://mapeditor.org) as map editor.
+Andor's Trail uses [Tiled](https://mapeditor.org) as a map editor.
 
-The map editor produces files with extension “.tmx”, that are XML files containing one map each. These files are loaded directly into the game. That's part of what's happening when the loading screen is visible.
+The map editor produces files with the extension “.tmx”, which are XML files containing one map each. These files are loaded directly into the game. That's part of what's happening when the loading screen is visible.
 
-To edit the maps used in Andor's Trail, open the TMX files from “res/xml” in the source code distribution directly into Tiled. They should load the tilesets correctly if you have the paths the same way as in the Git repository.
+To edit the maps used in Andor's Trail, open the TMX files in the “res/xml” directory of the source code distribution directly in Tiled. They should load the tilesets correctly if you use the same paths as in the Git repository.
 
 Additionally, see the [Map Guidelines](./) for making new maps.
 
@@ -19,31 +19,30 @@ Tiled uses a concept of layers to place image tiles on top of other image tiles.
 3. Draw the player and monsters.
 4. Draw the “Above” layer.
 
-This way, you can for example choose to place a rock in the Object layer above a grass tile in the Ground layer. The Above layer is used for tiles which should lie over the player (e.g. treetops or shadows).
+This way, you can, for example, choose to place a rock in the Object layer above a grass tile in the Ground layer. The Above layer is used for tiles that should lie over the player (e.g., treetops or shadows).
 
-Please keep in mind that all objects placed on the map cause the rendering to be slowed down somewhat.
+Please keep in mind that all objects placed on the map can slow rendering somewhat.
 
-Maps in Andor's Trail also use another special layer called the “walkable” layer. Any tiles are filled (with any image) in this layer will be non-walkable. Currently, a transparent purple image is used as marker on this layer in the maps that are distributed.
+Maps in Andor's Trail also use another special layer called the “walkable” layer. Any tiles filled with any image in this layer will be non-walkable. Currently, a transparent purple image is used as a marker on this layer in the distributed maps.
 
 ## Object Layers
 
-TMX files from Tiled also has a concept of “object layers”. Object layers can be mostly anything you want them to be, it's up to the implementation to decide what to do with them.\
+TMX files from Tiled also have a concept of “object layers”. Object layers can be mostly anything you want them to be; it's up to the implementation to decide what to do with them.\
 Each object in an object layer has a name, type, and properties. The properties are key/value pairs.
 
 Remember to enable snap to grid in menu/view in Tiled to make the selection box have the exact size as the tiles!
 
-Andor's Trail uses the following object layers types:
+Andor's Trail uses the following object layer types:
 
 ### Spawn layer
 
 ### **Spawn object type**
 
-Spawn areas are used for indicating where there should be monsters.
+Spawn areas are used to indicate where there should be monsters.
 
-|      | Description                                                                                                                                                                                |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| name |  The name of the selection box is the _spawngroup_ of the npc or monster that should spawn here. The monster spawn-groups can be edited with this [ATCS](../../contributor-section/atcs/). |
-| type | The type is called 'spawn'.                                                                                                                                                                |
+| name |  The name of the selection box is the _spawn group of the NPC_ or monster that should spawn here. The monster spawn-groups can be edited with this [ATCS](../../contributor-section/atcs/). |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type | The type is called 'spawn'.                                                                                                                                                                 |
 
 Other properties that are possible to set on objects of this type are:
 
@@ -179,10 +178,10 @@ Now, I want to place an old chest and its shadow. I place the chest in layer1 an
 
 ![](../../.gitbook/assets/replace4.png)
 
-The last small tutorial shows how to delete multiple things cleverly with only one layer. I drew a bush and made it unwalkable. Afterwards I used layer1 which is blank at this tile to delete both layers.
+The last small tutorial shows how to delete multiple items effectively with a single layer. I drew a bush and made it unwalkable. Afterwards, I used layer1, which is blank at this tile, to delete both layers.
 
 ![](../../.gitbook/assets/replace5.png)
 
 ## Tilesets
 
-The current tileset that is used is a modified version of [this](http://telles0808.deviantart.com/art/RPG-Maker-VX-RTP-Tileset-159218223) and additional images. This large image is spit up into several smaller parts (to speed up the loading process), which you can find in the “res/drawable” directory of the source code.
+The current tileset that is used is a modified version of [this](http://telles0808.deviantart.com/art/RPG-Maker-VX-RTP-Tileset-159218223), with additional images. This large image is split up into several smaller parts (to speed up the loading process), which you can find in the “res/drawable” directory of the source code.

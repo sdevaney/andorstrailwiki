@@ -6,18 +6,18 @@ description: >-
 
 # Advanced Map Making Tutorial
 
-1. &#x20;Make sure that you have already read the [Map Making](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section.html) tutorial, the [Map Editor](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section.html) tutorial and the [Mapmaking Guidelines](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section/mapmaking_guidelines.html).
+1. &#x20;Make sure that you have already read the [Map Making](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section.html) tutorial, the [Map Editor](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section.html) tutorial, and the [Mapmaking Guidelines](https://andorstrail.com/wiki/test/andors_trail_wiki/developer_section/mapmaking_guidelines.html).
 2. Now, you are ready to draw a more advanced map!
-3. I'm going to draw an outdoor map with three mountains, a lake area, a forest and a hut inhabited by a hermit.
-4. As always, the first thing you have to do is defining the size of the map (30×30 in this case) and painting the “Ground” layer. In this case I chose the grass tile and painted the whole map using the brush tool.
+3. I'm going to draw an outdoor map with three mountains, a lake area, a forest, and a hut inhabited by a hermit.
+4. As always, the first thing you have to do is define the size of the map (30×30 in this case) and paint the “Ground” layer. In this case, I chose the grass tile and painted the whole map using the brush tool.
 
 ![](../../../.gitbook/assets/tutorial1.png)
 
-5\.  Let's add a lake area in the bottom left hand corner with two small islands. To do that, I switched to the paint tool and selected the ordinary water tile.
+5\.  Let's add a lake area in the bottom left-hand corner with two small islands. To do that, I switched to the paint tool and selected the ordinary water tile.
 
 ![](../../../.gitbook/assets/tutorial2.png)
 
-6\.  Mountains add more elevation to the flat map. I start by drawing some grey mountain walls on the top of the map and a brown mountain area to the left and the right. I'm drawing the wall tops as well to make the left hand mountain area visible because it hasn't got any walls for now.
+6\.  Mountains add more elevation to the flat map. I start by drawing some grey mountain walls at the top of the map, and a brown mountain area to the left and right. I'm drawing the wall tops as well to make the left-hand mountain area visible because it hasn't got any walls for now.
 
 ![](../../../.gitbook/assets/tutorial5.png)
 
@@ -29,21 +29,21 @@ description: >-
 
 ![](../../../.gitbook/assets/tutorial7.png)
 
-9\.  Let's add some more walls on top of the first mountain level to make it really look like a mountain and not like a flat highland. I recommend differing the base wall height of two tiles like I did in the grey area.
+9\.  Let's add some more walls on top of the first mountain level to make it really look like a mountain and not like a flat highland. I recommend differing the base wall height of two tiles, like I did in the grey area.
 
 ![](../../../.gitbook/assets/tutorial14.png)
 
-10\.  To make the edges look even more smoothly, I draw the bottom and top corners which are placed in “Objects”.
+10\.  To make the edges look even more smooth, I draw the bottom and top corners, which are placed in “Objects”.
 
 ![](../../../.gitbook/assets/tutorial15.png)
 
-11\.  If I would just draw the top corners over the brown area, the edges wouldn't be very visible and the map may not look perfect. So, I added some small dirt trails at the place where the corners should be. After that, I'm switching to “Above” and draw the edges over the dirt trail. Doesn't it look better now?
+11\.  If I were to just draw the top corners over the brown area, the edges wouldn't be very visible, and the map may not look perfect. So, I added some small dirt trails where the corners should be. After that, I'm switching to “Above” and drawing the edges over the dirt trail. Doesn't it look better now?
 
 ![](../../../.gitbook/assets/tutorial16.png)
 
 ![](../../../.gitbook/assets/tutorial17.png)
 
-12\.  The lake needs some dirt borders as overlay to make the intersection between the lake and the grass tiles look more smoothly. I draw the borders in “Objects”. I usually add the corner tiles at first, then the straight tiles and finally the round which connect the corners with the straight tiles. At this point, I noticed the lake being too straight in the north, so I changed the outline a little bit.
+12\.  The lake needs some dirt borders as an overlay to make the intersection between the lake and the grass tiles look smoother. I draw the boundaries in “Objects”. I usually add the corner tiles at first, then the straight tiles, and finally the round tiles, which connect the corners with the consecutive tiles. At this point, I noticed the lake was too straight in the north, so I adjusted the outline a bit.
 
 ![](../../../.gitbook/assets/tutorial19.png)
 
@@ -51,7 +51,7 @@ description: >-
 
 ![](../../../.gitbook/assets/tutorial23.png)
 
-13\.  What about a small house in the top right hand corner? Let's switch to the “Ground” layer and draw a dark wooden wall and a greenish wooden roof.
+13\.  What about a small house in the top right-hand corner? Let's switch to the “Ground” layer and draw a dark wooden wall and a greenish wooden roof.
 
 ![](../../../.gitbook/assets/tutorial24.png)
 
@@ -67,7 +67,7 @@ description: >-
 
 ![](../../../.gitbook/assets/tutorial28.png)
 
-16\.  Now, about the forest. I think, a mixed forest fits the best to this map. I usually fill the area at first with one type of tree (in this case a deciduous tree type) and afterwards I remove more and more trees by either creating a path through the forest or by merely overwriting the trees with another type (e.g. tall trees, coniferous trees or naked trees). Don't forget to draw the bottom of the tree in “Objects” and the treetop in “Above”.
+16\.  Now, about the forest. I think a mixed forest fits best for this map. I usually fill the area at first with one type of tree (in this case, a deciduous tree type) and afterwards I remove more and more trees by either creating a path through the forest or by merely overwriting the trees to another kind (e.g., tall trees, coniferous trees, or naked trees). Don't forget to draw the bottom of the tree in “Objects” and the treetop in “Above”.
 
 ![](../../../.gitbook/assets/tutorial29.png)
 
@@ -123,7 +123,7 @@ description: >-
 
 ![](../../../.gitbook/assets/tutorial46.png)
 
-27\. The hermit needs of course a safe place. I did this by adding a fence in “Objects”. He has also stored some firewood under the eave. Some tiles I used aren't displayed. They're located in map\_outdoor\_1.
+27\. The hermit needs, of course, a safe place. I did this by adding a fence in “Objects”. He has also stored some firewood under the eave. Some tiles I used aren't displayed. They're located in map\_outdoor\_1.
 
 ![](../../../.gitbook/assets/tutorial48.png)
 
@@ -133,7 +133,7 @@ description: >-
 
 ![](../../../.gitbook/assets/tutorial50.png)
 
-29\.   Now, to the shadows. The shadows have to follow the shadow rules which I described in the [Map Making](./) tutorial. They're added in “Above”. In the second screenshot, I added a small shadow in “Objects” on the right hand side of the chest. This only needed if the crate tile hasn't already got a shadow.
+29\.   Now, to the shadows. The shadows have to follow the shadow rules, which I described in the [Map Making](./) tutorial. They're added in “Above”. In the second screenshot, I added a small shadow in “Objects” on the right-hand side of the chest. This is only needed if the crate tile hasn't already got a shadow.
 
 ![](../../../.gitbook/assets/tutorial51.png)
 
@@ -165,7 +165,7 @@ description: >-
 
 ![](../../../.gitbook/assets/sign.png)
 
-39\.  I want the barrel to be lootable, so I set its properties as container. I made barrel walkable, so the player has access to the goods.
+39\.  I want the barrel to be lootable, so I set its properties as a container. I made the barrel walkable, so the player has access to the goods.
 
 ![](../../../.gitbook/assets/tutorial61.png)
 
@@ -191,7 +191,7 @@ description: >-
 
 ![](../../../.gitbook/assets/key.png)
 
-39\.  Then, I added a replace object area by adding the “Replace” layer (Right click the layer window and create a new object layer). This can be used to change the look of the map upon meeting the particular requirements. I replaced the door in “Objects” to make it look closed and additionally, I made the whole door unwalkable. I added a new tile layer over “Objects” called “Objects\_changed”. I selected the new layer and drew an open door over the closed one. Then, did the same for “Walkable” and called the new laye r”Walkable\_changed“ and placed a walkable tile over the top of the door. After that, the only thing you need to do is placing a rectangle over the whole door and editing its properties.
+39\.  Then, I added a replace object area by adding the “Replace” layer (Right-click the layer window and create a new object layer). This can be used to change the map's appearance when the specific requirements are met. I replaced the door in “Objects” to make it appear closed, and I also made the entire door unwalkable. I added a new tile layer over “Objects” called “Objects\_changed”. I selected the new layer and drew an open door over the closed one. Then, did the same for “Walkable” and called the new layer” Walkable\_changed“ and placed a walkable tile over the top of the door. After that, the only thing you need to do is place a rectangle over the whole door and edit its properties.
 
 ![](../../../.gitbook/assets/tutorial69.png)
 

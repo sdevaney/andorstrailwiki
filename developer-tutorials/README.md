@@ -4,20 +4,16 @@ description: >-
   Trail.
 ---
 
-# Content Creation Tutorials
+# Part 3: Content Creation Tutorials
 
-### [Quest Creation](quest-making/)
+### [Content Creation Workflow](content-creation-workflow.md)
 
-### [Map Making](mapmaking-guidelines/map-making/)
+### [Quest Creation](../contributor-section/quests.md)
 
-### [Map Editor](mapmaking-guidelines/map-editor.md)
+### [Mapmaking Guidelines](mapmaking-guidelines/)
 
-### [Advanced Map Making](mapmaking-guidelines/map-making/advanced-map-making-tutorial.md)
+### [Contributing Code](contributing-code/)
 
 ### [Translating](translating.md)
 
-### [Development Environment Setup](contributing-code/development-environment-setup.md)
-
-### [Andor's Trail Content Studio](../contributor-section/atcs/)
-
-### [World Map](../contributor-section/world/world-map.md)
+### [Contributing Documentation](contributing-documentation.md)

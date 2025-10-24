@@ -10,7 +10,7 @@ Exit to the main menu.
 
 ### Save <a href="#save" id="save"></a>
 
-Create a new save slot or save over an existing slot.
+Create a new save slot or overwrite an existing one.
 
 ## Preferences
 
@@ -20,7 +20,7 @@ This screen covers a variety of settings that can be changed.
 
 **Fullscreen**
 
-Displays the game in fullscreen mode. (Requires restart)
+Displays the game in full-screen mode. (Requires restart)
 
 **Scaling Factor**
 
@@ -32,7 +32,7 @@ Makes the game view display everything larger.
 
 **Optimized Drawing**
 
-Disable this if you see graphical artifacts. Enabling this option will make the game only redraw changed parts of the screen every frame.\
+Disable this if you see graphical artifacts. Enabling this option will make the game only redraw the changed parts of the screen every frame.\
 
 
 ## **Dialog Confirmation**
@@ -47,9 +47,9 @@ Enables the 'Do you want to attack..?' dialog box when attacking a monster.
 
 **Display Monster Loot**
 
-Choose how you want to show the results of a fight to be shown (gold, experience, items).
+Choose how you want to show the results of a fight (gold, experience, items).
 
-* Show loot dialog box
+* Show the loot dialog box.
 * Show short notification
 * Do not display
 

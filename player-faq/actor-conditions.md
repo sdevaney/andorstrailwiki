@@ -7,7 +7,7 @@
 <div align="left"><img src="../.gitbook/assets/conditions_dazed.png" alt=""></div>
 
 BC: -40%\
-Caused by: 20% chance from a hit from Gornaud (young, regular or strong)\
+Caused by: 20% chance of a hit from Gornaud (young, regular, or strong)\
 Cure: none
 
 ### Chaotic Grip (x1)
@@ -103,7 +103,7 @@ Cure: Unequipping all Blackwater items.
 AC: -10%\
 AD: -1\
 Caused by: 70% chance from a hit from Plaguestrider (Tough, Wooly, Tough wooly, Nesting, Vile, Hardshell, Servant, Master), Plaguecrawler (regular, Black)\
-Note: effect can be inflicted in multiples
+Note: the effect can be inflicted in multiples
 
 ### Blistering Skin (x1)
 
@@ -112,7 +112,7 @@ Note: effect can be inflicted in multiples
 Every round: Drains 1 HP\
 Caused by: 50% chance from a hit from Plaguestrider (Wooly, Tough wooly, Nesting, Vile, Servant, Master),\
 20% chance from Plaguecrawler (regular, Black), Plaguestrider (Hardshell, Tough)\
-Note: effect can be inflicted in multiples
+Note: the effect can be inflicted in multiples
 
 ### Irdegh Poison
 
@@ -147,7 +147,7 @@ Cure: none
 <div align="left"><img src="../.gitbook/assets/conditions_minor_speed.png" alt=""></div>
 
 Raises Max AP +2\
-Caused by: drinking minor potion of speed
+Caused by: drinking a minor potion of speed
 
 ### Kazaul Rotworms
 
@@ -156,7 +156,7 @@ DR: -1\
 Lowers max HP by 15\
 Lowers max AP by 3\
 Caused by: Toszylae (lich boss monster) infects you with it when you confront him after killing the Radiant Guardian\
-cure: After killing Toszylae, talk to Ulirfendor to progress the “I have it in me” quest, which will eventually lead to a cure.
+Cure: After killing Toszylae, talk to Ulirfendor to progress the “I have it in me” quest, which will eventually lead to a cure.
 
 ## Spiritual
 
@@ -170,7 +170,7 @@ Blessing effects and rounds do not stack, so don't buy more than 1 of each at a 
 
 Restores 1 HP every round\
 Caused by: equipping Ring of Lesser Shadow (RoLS)\
-Effect does not stack if you equip 2 rings
+The effect does not stack if you equip two rings
 
 ### Bless
 

@@ -4,21 +4,21 @@ description: >-
   creation.
 ---
 
-# NPC's and their creation
+# NPCs and their creation
 
 ## Character Personalities
 
 All characters base their actions on reasoning or a strong belief that what they are doing is the right thing to do.
 
-Characters are not “good” or “evil”. They do what they see is their best course of action based on their past experiences. Some NPCs may be generous towards the player because they think that being generous might provide them with some benefit in the future. Some NPCs may be bitter because of past events they have had with other people or the player.
+Characters are not “good” or “evil”. They do what they see as their best course of action based on their past experiences. Some NPCs may be generous towards the player because they think that being generous might provide them with some benefit in the future. Some NPCs may be bitter because of past events involving other people or the player.
 
 ## Dialogue
 
-Prefer to have many different dialogue options for the player to choose from, with different personalities of the player - even if some of the options lead to the same result. It gives the player a way of expressing their own personality more, and gives depth for the player.
+Prefer to have many different dialogue options for the player to choose from, with varying player personalities, even if some options lead to the same result. It gives the player a way to express their personality more and adds depth to the player's experience.
 
-## NPC's involved in quests
+## NPCs involved in quests
 
-### List of Crossglen area NPC's
+### List of Crossglen area NPCs
 
 * Andor
 * Mikhail
@@ -43,7 +43,7 @@ Prefer to have many different dialogue options for the player to choose from, wi
 * Fallhaven Prison Thief
 * Fallhaven Prison Guard
 
-### List of Vilegard area NPC's
+### List of Vilegard area NPCs
 
 * Kaori
 * Wrye
@@ -51,7 +51,7 @@ Prefer to have many different dialogue options for the player to choose from, wi
 * Rincel
 * Foaming Flask Outside Guard
 
-### List of Loneford and Guardhouse area NPC's
+### List of Loneford and Guardhouse area NPCs
 
 * Erinith
 * Hadacor
@@ -63,7 +63,7 @@ Prefer to have many different dialogue options for the player to choose from, wi
 * Ailshara
 * Crossroads Guards
 * Villagers in Loneford
-* Talion \(Lonefords Priest\)
+* Talion (Lonefords Priest)
 * Taevinn
 * Sienn's pet
 * The Farmer
@@ -71,7 +71,7 @@ Prefer to have many different dialogue options for the player to choose from, wi
 * Buceth
 * Lonefords Longhouse Guard
 
-### List of Prim and Blackwater area NPC's
+### List of Prim and Blackwater area NPCs
 
 * Prim's Inn Cook
 * Arghest
@@ -85,11 +85,10 @@ Prefer to have many different dialogue options for the player to choose from, wi
 * Throdna
 * Herec
 
-### List of Remgard and Eastern Loneford NPC's
+### List of Remgard and Eastern Loneford NPCs
 
 * Thorin
 * Algangror
 * Kaverin
 
-### Additional NPC's
-
+### Additional NPCs

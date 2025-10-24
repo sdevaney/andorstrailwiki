@@ -14,15 +14,15 @@ Each of these NPCs can be created in [ATCS](../../contributor-section/atcs/).
 | Conversation Phrase ID | The id of the starting Phrase that will be shown when the player engages in dialogue with the NPC. See “Dialogue” below for more info on what a Phrase is defined as. For NPCs, prefer to name the starting phrase to the same as the NPC’s internal id.                                                                                                                                                            |
 | Droplist ID            | The id of the list of things that will be dropped when the player kills the monster or NPC. See “Quest items” below for more info.                                                                                                                                                                                                                                                                                  |
 
-Also note that Olgnuur has a droplist specified, but Cileth does not have one. This is again because Cileth will not be available for combat - only Olgnuur will.
+Also note that Olgnuur has a droplist, but Cileth does not. This is again because Cileth will not be available for combat—only Olgnuur will.
 
 ## Placing NPC's
 
-The maps in Andor’s Trail are created by using [Tiled](../mapmaking-guidelines/map-editor.md) as map editor.
+The maps in Andor’s Trail are created by using [Tiled](../mapmaking-guidelines/map-editor.md) as a map editor.
 
-To place these three NPCs on maps, we open the map files using Tiled, and create object areas of type “spawn” where they should be placed:
+To place these three NPCs on maps, we open the map files using Tiled and create object areas of type “spawn” where they should be placed:
 
-![Placing gwend (the NPC that tells the rumor)](../../.gitbook/assets/quest_making5.jpeg)
+![Placing Gwend (the NPC that tells the rumor)](../../.gitbook/assets/quest_making5.jpeg)
 
 ![Placing Cileth](../../.gitbook/assets/quest_making6.jpeg)
 

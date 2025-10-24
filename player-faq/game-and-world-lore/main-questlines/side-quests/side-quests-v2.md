@@ -21,7 +21,7 @@ These optional quests provide significant content, character development, and wo
 **Lost Sheep** vs **Cheap Cuts**​
 
 * **Description**: **Mutually exclusive quests** - either help Tinlyn attach bells to sheep OR help Benbyr kill the sheep for meat.
-* **Location**: Grasslands north of Crossglen
+* **Location**: Grasslands north of Crossglen.
 
 ### **Fallhaven Area**
 
@@ -31,12 +31,12 @@ These optional quests provide significant content, character development, and wo
 
 **Calomyran Secrets**​
 
-* **Description**: An old man seeks his lost book "Calomyran Secrets." Search houses and fight for the book in a barn.
-* **Location**: Southwest Fallhaven
+* **Description**: An old man seeks his lost book, "Calomyran Secrets." Search houses and fight for the book in a barn.
+* **Location**: Southwest Fallhaven.
 
 **Thief Apprentice**​
 
-* **Description**: Help Farrik free a fellow thief from Fallhaven Prison using special "sleepytime" mead
+* **Description**: Help Farrik free a fellow thief from Fallhaven Prison using special "sleepytime" mead.
 
 **Drunken Tale**​
 
@@ -51,7 +51,7 @@ These optional quests provide significant content, character development, and wo
 **Kaori's Errands**​
 
 * **Description**: Simple task - bring Kaori 10 Bonemeal potions.
-* **Location**: Northern Vilegard
+* **Location**: Northern Vilegard.
 
 **Spies in the Foam**​
 
@@ -61,8 +61,8 @@ These optional quests provide significant content, character development, and wo
 
 **Old Friends?**&#x200B;
 
-* **Description**: Kaverin in Remgard has connections to Unzel, creating a complex relationship web.
-* **Location**: Remgard Inn (upstairs)
+* **Description**: Kaverin in Remgard has ties to Unzel, creating a complex web of relationships.
+* **Location**: Remgard Inn (upstairs).
 
 **Of Mice and Men**​
 
@@ -72,12 +72,12 @@ These optional quests provide significant content, character development, and wo
 
 **Awoken from Slumber**​
 
-* **Description**: Bjorgur in Prim believes something has disturbed his family tomb.
-* **Location**: Tomb west of Prim, south of mine entrance
+* **Description**: Bjorgur in Prim believes something has disturbed his family's tomb.
+* **Location**: Tomb west of Prim, south of mine entrance.
 
 **Well Rested**​
 
-* **Description**: Arrange accommodation at Prim's Inn by negotiating with Arghest for room access.
+* **Description**: Arrange accommodation at Prim's Inn by negotiating with Arghest for access to the rooms.
 
 **The Kazaul Ritual**​
 
@@ -87,56 +87,56 @@ These optional quests provide significant content, character development, and wo
 
 **Flows Through the Veins**​
 
-* **Description**: **Major investigation quest** - discover the source of mysterious illness plaguing Loneford residents.
+* **Description**: **Major investigation quest** - discover the source of the mysterious illness plaguing Loneford residents.
 
 **Deep Wounds**​
 
 * **Description**: Help heal Erinith's wounds after recovering his missing book from a cave.
-* **Location**: Northeast of Crossglen
+* **Location**: Northeast of Crossglen.
 
 ### **Regional Conflicts**
 
 **Feygard Errands**​
 
 * **Description**: Tasks from Gandoren involving weapon deliveries to the Foaming Flask.
-* **Choice**: Deliver real swords OR give them to Vilegard and substitute low-quality weapons
-* **Politics**: Represents the broader Feygard vs. Shadow cult conflict
+* **Choice**: Deliver real swords OR give them to Vilegard and substitute low-quality weapons.
+* **Politics**: Represents the broader Feygard vs. Shadow cult conflict.
 
 **The Path is Clear to Me**​
 
 * **Description**: Hunt down rogues who stole a painting for Minarra at the Guards Crossroads.
-* **Location**: West past the troll bridge
-* **Moral Choice**: Decide between official version and rogues' side of the story
+* **Location**: West past the troll bridge.
+* **Moral Choice**: Decide between the official version and the rogues' side of the story.
 
 ### **Advanced Side Quests**
 
 **Stoutford's Old Castle**​
 
 * **Description**: Explore the haunted castle filled with undead soldiers and mysterious Lord Erwin.
-* **Challenges**: Multiple building searches, skeleton encounters
-* **Rewards**: Various items hidden throughout castle grounds
+* **Challenges**: Multiple building searches, skeleton encounters.
+* **Rewards**: Various items hidden throughout castle grounds.
 
 **The Dark Protector**​
 
 * **Description**: Advanced quest involving mysterious protective forces.
-* **Difficulty**: Higher level content
+* **Difficulty**: Higher-level content.
 
 **The Five Idols** / **What is That Stench?**&#x200B;
 
 * **Description**: Connected quests involving ancient religious artifacts.
-* **Complexity**: Multi-part questline with exploration elements
+* **Complexity**: Multi-part questline with exploration elements.
 
 ### **Mount Galmore Area**&#x20;
 
 **Troubling Times**​
 
 * **Description**: New quest added in v0.8.13 involving the search for Sly Seraphina.
-* **Location**: Various areas including potential Charwood, green maze, and Feygard territories
+* **Location**: Various areas, including potential Charwood, green maze, and Feygard territories.
 
 **Darkness in the Daylight** and **Shadows**​
 
 * **Description**: Dual questline added in v0.8.14 by contributor RaptorNXT.
-* **Location**: Mount Galmore area south of Stoutford
+* **Location**: Mount Galmore area south of Stoutford.
 
 **A Familiar Shadow**​
 
@@ -204,7 +204,7 @@ These optional quests provide significant content, character development, and wo
 
 **Perception is Not Reality**​
 
-* **Description**: Quest challenging assumptions and revealing hidden truths.
+* **Description**: Quest challenges assumptions and reveals hidden truths.
 
 ### **Character Development Quests**
 

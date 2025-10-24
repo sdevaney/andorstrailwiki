@@ -16,12 +16,12 @@ public static final boolean DEVELOPMENT_FORCE_DEBUG_BUTTON = false;
 
 **Main Classes:**
 
-* `GameActivity`: Primary game activity and UI controller
-* `GameModel`: Core game state and logic
-* `MapController`: Map rendering and player movement
-* `CombatController`: Turn-based combat system
-* `QuestController`: Quest progression and tracking
-* `InventoryController`: Item management and equipment
+* `GameActivity`: Primary game activity and UI controller.
+* `GameModel`: Core game state and logic.
+* `MapController`: Map rendering and player movement.
+* `CombatController`: Turn-based combat system.
+* `QuestController`: Quest progression and tracking.
+* `InventoryController`: Item management and equipment.
 
 ### Resource Loading System
 
@@ -185,11 +185,11 @@ javapublic class MapChange extends MapObject {
 
 ### Layer Rendering Order
 
-1. Ground layer (base terrain)
-2. Objects layer (decorations, items)
-3. Actors (NPCs, monsters, player)
-4. Above layer (overhanging elements)
-5. UI elements
+1. Ground layer (base terrain).
+2. Objects layer (decorations, items).
+3. Actors (NPCs, monsters, player).
+4. Above layer (overhanging elements).
+5. UI elements.
 
 ### Tile Rendering
 
@@ -412,10 +412,10 @@ javapublic class ObjectPool<T> {
 
 ### Resource Management
 
-* Use `Resources.openRawResource()` for JSON files
-* Cache parsed data structures
-* Recycle bitmaps when possible
-* Use efficient data structures (HashMap for lookups)
+* Use `Resources.openRawResource()` for JSON files.
+* Cache parsed data structures.
+* Recycle bitmaps when possible.
+* Use efficient data structures (HashMap for lookups).
 
 ### Rendering Optimization
 
@@ -433,9 +433,9 @@ javapublic class ViewPort {
 
 ### Sprite Batching
 
-* Group similar sprites for batch rendering
-* Use sprite sheets instead of individual images
-* Minimize texture switches during rendering
+* Group similar sprites for batch rendering.
+* Use sprite sheets instead of individual images.
+* Minimize texture switches during rendering.
 
 ### Testing Framework <a href="#testing-framework" id="testing-framework"></a>
 
@@ -514,29 +514,29 @@ textbuildTypes {
 
 ### Minimum Android Version
 
-* **API Level**: 35 (Android 15)
-* **Target API**: Latest stable Android version
-* **Architecture**: ARMv7, ARM64, x86
+* **API Level**: 35 (Android 15).
+* **Target API**: Latest stable Android version.
+* **Architecture**: ARMv7, ARM64, x86.
 
 ### Backwards Compatibility
 
-* Avoid newer API features without compatibility checks
-* Use support libraries for modern UI components
-* Test on minimum API level devices
+* Avoid newer API features without compatibility checks.
+* Use support libraries for modern UI components.
+* Test on minimum API level devices.
 
 ### Security Considerations <a href="#security-considerations" id="security-considerations"></a>
 
 ### Save Game Integrity
 
-* Validate save data structure
-* Check for impossible values
-* Prevent save game tampering
+* Validate the saved data structure.
+* Check for impossible values.
+* Prevent save game tampering.
 
 ### Content Validation
 
-* Validate all loaded content for required fields
-* Check references to other game objects
-* Prevent script injection attacks
+* Validate all loaded content for required fields.
+* Check references to other game objects.
+* Prevent script injection attacks.
 
 ### Debugging Tools <a href="#debugging-tools" id="debugging-tools"></a>
 
@@ -569,4 +569,4 @@ javaif (DEVELOPMENT_DEBUGRESOURCES) {
 }
 ```
 
-This technical reference provides the foundation for understanding and extending the Andor's Trail codebase. For specific implementation details, refer to the source code and existing patterns within the project.
+This technical reference provides the foundation for understanding and extending Andor's Trail codebase. For specific implementation details, refer to the source code and existing patterns within the project.

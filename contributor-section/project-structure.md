@@ -11,7 +11,7 @@ textandors-trail/
 │   ├── src/               # Java source files
 │   └── res/               # Android resources
 │       ├── drawable/      # Graphics and tilesets
-│       ├── raw/           # Script files (.ats)
+│       ├── raw/           # Script files (.JSON)
 │       ├── values/        # Configuration files
 │       └── xml/           # Map files (.tmx)
 ├── AndorsTrailEdit/       # Legacy content editor (deprecated)
