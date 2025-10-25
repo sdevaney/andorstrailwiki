@@ -4,7 +4,7 @@ Combat in Andor's Trail is divided into turns. If the player engages in battle, 
 
 If all monsters are killed, the player receives experience and loot. The amount of experience and loot items (including gold) is determined by monster type.
 
-&#x20;If the player is killed in combat, the player loses 30% of the built-up experience of the current level. _Note_ that the percentage is within the current level, so you can never lose so much experience that you decrease in level
+If the player is killed in combat, the player loses 30% of the built-up experience of the current level. _Note_ that the percentage is within the current level, so you can never lose so much experience that you decrease in level
 
 ## Base Statistics and Equipment Effects
 
@@ -35,29 +35,119 @@ If the attacker has a chance of doing a critical hit (has a critical chance > 0%
 Subtract the target's damage resistance from D.\
 The attack causes the target to lose D HP. If the target has zero or fewer HP left, the target dies.
 
-## Chance To Hit
+### Chance To Hit
 
-&#x20;The chance to hit in Andor's Trail v0.6.11 is calculated as follows: determine damage based on the attacker's damage potential, which is usually specified as an interval. The attack damage is a random number in that interval. If the target has any damage resistance, the resulting damage is reduced by the target's damage resistance. The formula is as follows:
-Effective AC = (Your AC) - (Target BC)
-Actual AC = 50 * (1 + (2/pi) * ATAN((Effective AC - 50) / 40))
+The chance to hit in Andor's Trail v0.6.11 is calculated as follows: determine damage based on the attacker's damage potential, which is usually specified as an interval. The attack damage is a random number in that interval. If the target has any damage resistance, the resulting damage is reduced by the target's damage resistance. The formula is as follows:&#x20;
 
-## Fleeing
+```
+Effective AC = (Your AC) - (Target BC) Actual AC = 50 * (1 + (2/pi) * ATAN((Effective AC - 50) / 40))
+```
 
-When engaging in combat with a tough monster, sometimes the best action is to flee and return later when you have built up your character and equipment more.
+Where:
 
-### How to flee
+* **Your AC** = Your Attack Chance (0-100)
+* **Target BC** = Target's Block Chance (0-100)
+* **π** = Pi (3.14159...)
+* **ATAN** = Arctangent function (inverse tangent)
+* **Actual AC** = Final hit chance percentage (0-100)
 
-1. Engage in combat by attacking a monster, or wait until it's your time to start your attack turn.
-2. Select a square to move to that doesn't have any monsters on it.
-3. &#x20;**Long-press that square.**
-4. Notice how the square lights up yellow, thus indicating that you have selected it.
-5. Also, notice that the “Attack” button has changed to a “Move” button.
-6. Tap the screen (or tap the Move button) to move to that square.
-7. Hopefully, you should now be in a square that doesn't have any monsters adjacent to it.
-8. Tap the screen (or tap “End combat”) to end combat.
-9. Combat ends. You have fled the fight.
-10. Make sure to kill that bastard later :)
+### Explanation
 
-## Selecting a Target
+1. **Calculate Effective AC**: Subtract the target's block chance from your attack chance.
+   * Higher AC means a better chance to hit.
+   * Higher BC means better defense.
+2. **Apply ATAN Formula**: The formula uses arctangent to create a sigmoid curve.
+   * This creates smooth probability transitions.
+   * Prevents extreme cases (always hit or always miss).
+   * Matches the game's balance philosophy.
+3. **Result**: Returns value between 0 and 100 (percentage).
 
-Long-pressing an adjacent square also allows you to select a different monster to attack.
+### Attack Damage Calculation <a href="#attack-damage-calculation" id="attack-damage-calculation"></a>
+
+Damage dealt by an attack is calculated from weapon and character attributes.
+
+```
+Base Damage = RANDOM(Weapon Min Damage, Weapon Max Damage)
+Final Damage = Base Damage * (1 + AD_Bonus / 100)
+```
+
+Where:
+
+* **Weapon Min/Max Damage** = Defined in weapon JSON.
+* **AD\_Bonus** = Attack Damage bonus from equipment and conditions.
+* **RANDOM()** = Random value within range (inclusive).
+* **Final Damage** = Total damage dealt to the target.
+
+### Armor Defense Calculation <a href="#armor-defense-calculation" id="armor-defense-calculation"></a>
+
+Defense against damage is calculated from armor and conditions.
+
+```
+// Some codeDamage Reduction = AC_Bonus / 200
+Actual Damage = Base Damage * (1 - Damage Reduction)
+```
+
+Where:
+
+* **AC\_Bonus** = Armor Class bonus from equipment and conditions (up to 200).
+* **Damage Reduction** = Percentage reduction (0-1.0).
+* **Actual Damage** = Damage received after armor reduction.
+
+### Block Chance <a href="#block-chance" id="block-chance"></a>
+
+Block Chance (BC) represents the probability of completely negating an attack.
+
+#### Properties
+
+* **Range**: 0-100
+* **Calculation**: Subtracted from attacker's AC (see Hit Chance section).
+* **Equipment**: Added through armor and accessories.
+* **Conditions**: Some conditions reduce BC (e.g., Stunned).
+
+### Action Points (AP) <a href="#action-points-ap" id="action-points-ap"></a>
+
+Combat turns are based on Action Points and movement costs.
+
+```
+AP Per Turn = 10 + (Speed Bonus / 10)
+Movement Cost = 1 AP per tile
+Attack Cost = Varies by weapon
+```
+
+Where:
+
+* **Speed Bonus** = Bonus from equipment and conditions.
+* **Movement Cost** = Fixed at 1 AP per tile moved.
+* **Attack Cost** = Defined in weapon specifications.
+
+### Health and Healing <a href="#health-and-healing" id="health-and-healing"></a>
+
+Health determines character survivability.
+
+```
+Max HP = Base HP + (Level * Level Factor) + (HP Bonus)
+Current HP = MAX(0, Current HP - Damage)
+Current HP = MIN(Max HP, Current HP + Healing)
+```
+
+Where:
+
+* **Base HP** = Starting HP value.
+* **Level** = Character level.
+* **Level Factor** = HP gain per level (typically 1-2).
+* **HP Bonus** = Bonus from equipment and conditions.
+
+### Critical Hits <a href="#critical-hits" id="critical-hits"></a>
+
+Some weapons or conditions enable critical hits.
+
+```
+Critical Chance = Critical Modifier (if applicable)
+Critical Damage = Base Damage * 1.5
+```
+
+Where:
+
+* **Critical Modifier** = Defined in weapon or condition.
+* **Critical Damage** = 150% of normal damage.
+

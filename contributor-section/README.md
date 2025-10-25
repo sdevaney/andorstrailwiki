@@ -51,6 +51,6 @@ Various areas that might require more instruction for developing Andor's Trail.
 
 ### [Translating](../developer-tutorials/translating.md)
 
-### [Development Environment](../developer-tutorials/contributing-code/development-environment-setup.md)
+### [Development Environment](../developer-tutorials/contributing-code/development-environment-setup-1.md)
 
 ### [World Map](world/world-map.md)
