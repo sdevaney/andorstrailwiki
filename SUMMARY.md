@@ -19,6 +19,7 @@
   * [GUI](player-faq/gui.md)
 * [Part 2: Content Creator's Handbook](contributor-section/README.md)
   * [Project Structure](contributor-section/project-structure.md)
+  * [ATS](contributor-section/ats.md)
   * [ATCS](contributor-section/atcs/README.md)
     * [Quick Start Guide](contributor-section/atcs/quick-start-guide.md)
   * [The Player](contributor-section/the-player.md)
