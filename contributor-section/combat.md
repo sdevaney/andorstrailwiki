@@ -37,7 +37,9 @@ The attack causes the target to lose D HP. If the target has zero or fewer HP le
 
 ## Chance To Hit
 
-&#x20;The chance to hit in Andor's Trail v0.6.11 is calculated as follows: determine damage based on the attacker's damage potential, which is usually specified as an interval. The attack damage is a random number in that interval. If the target has any damage resistance, the resulting damage is reduced by the target's damage resistance
+&#x20;The chance to hit in Andor's Trail v0.6.11 is calculated as follows: determine damage based on the attacker's damage potential, which is usually specified as an interval. The attack damage is a random number in that interval. If the target has any damage resistance, the resulting damage is reduced by the target's damage resistance. The formula is as follows:
+Effective AC = (Your AC) - (Target BC)
+Actual AC = 50 * (1 + (2/pi) * ATAN((Effective AC - 50) / 40))
 
 ## Fleeing
 
